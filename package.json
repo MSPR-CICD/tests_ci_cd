@@ -1,0 +1,26 @@
+{
+  "name": "tests_ci_cd",
+  "version": "1.0.0",
+  "description": "a simple test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSPR-CICD/tests_ci_cd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSPR-CICD/tests_ci_cd/issues"
+  },
+  "homepage": "https://github.com/MSPR-CICD/tests_ci_cd#readme",
+  "dependencies": {
+    "@hapi/hapi": "^19.1.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
