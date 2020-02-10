@@ -4,7 +4,11 @@ const registerHelloRoutes = (server) => {
     path: '/hello',
     handler: (req, h) => {
       return { message: `Hello ${req.query.name}`}
-    }
+    }, 
+    options: {
+      description: 'Says hello to the given name',
+      tags: ['api'],
+    } 
   })
 }
 
