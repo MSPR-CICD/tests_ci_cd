@@ -1,0 +1,6 @@
+projectKey=MSPRCICDTest
+serverUrl=http://localhost:9000
+serverVersion=8.1.0.31237
+dashboardUrl=http://localhost:9000/dashboard?id=MSPRCICDTest
+ceTaskId=AXAvjDz3hayODiuQs9SF
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXAvjDz3hayODiuQs9SF
