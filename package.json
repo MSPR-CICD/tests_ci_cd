@@ -20,12 +20,13 @@
   "dependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "husky": "^4.0.10",
     "@hapi/hapi": "^19.1.0",
     "@hapi/inert": "^6.0.1",
     "@hapi/joi": "^17.1.0",
     "@hapi/vision": "^6.0.0",
-    "hapi-swagger": "^12.1.0"
+    "david": "^12.0.0",
+    "hapi-swagger": "^12.1.0",
+    "husky": "^4.0.10"
   },
   "devDependencies": {
     "jest": "^25.1.0"
