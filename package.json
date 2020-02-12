@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "hapi-swagger": "^12.1.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "jest": "^25.1.0"
   }
 }
