@@ -6,7 +6,6 @@ const package = require("../package");
 const registerHelloRoutes = require("./hello/hello.routes");
 
 const server = Hapi.server({
-  host: "localhost",
   port: process.env.PORT || 3000
 });
 
