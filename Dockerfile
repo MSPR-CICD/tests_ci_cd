@@ -2,11 +2,11 @@ FROM node:lts
 
 WORKDIR /usr/src/app
 
-COPY src ./
+COPY src ./src
 
 COPY package*.json ./
 
-RUN ls -laR
+RUN ls -lR
 
 RUN npm install --production && npm audit fix --only=prod
 
