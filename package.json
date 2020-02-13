@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "test": "jest --coverage",
-    "start:docker": "node src/index.js"
+    "start:docker": "node index.js"
   },
   "repository": {
     "type": "git",
