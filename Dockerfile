@@ -2,7 +2,7 @@ FROM node:lts
 
 WORKDIR /usr/src/app
 
-COPY dist ./
+COPY src ./
 
 COPY package*.json ./
 
