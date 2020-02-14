@@ -22,27 +22,28 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Cache node modules
         uses: actions/cache@v1
-        env:
-          cache-name: cache-node-modules
+        # env:
+        #   cache-name: cache-node-modules
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          # key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
+            # ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
       - name: Install dependencies
         run: npm ci --production
 
-  analyse:
-    name: Analyse code quality
-    needs: build
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version: [8.x, 10.x, 12.x]
-    steps:
+      # analyse:
+      #   name: Analyse code quality
+      #   needs: build
+      #   runs-on: ubuntu-latest
+      #   strategy:
+      #     fail-fast: false
+      #     matrix:
+      #       node-version: [8.x, 10.x, 12.x]
+      #   steps:
       - name: Run lint
         run: npm run lint src/*
       - name: Run tests
