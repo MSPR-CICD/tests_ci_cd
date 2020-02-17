@@ -1,0 +1,7 @@
+organization=mspr-cicd
+projectKey=MSPR-CICD_tests_ci_cd
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.4497
+dashboardUrl=https://sonarcloud.io/dashboard?id=MSPR-CICD_tests_ci_cd
+ceTaskId=AXA5fynPGQLN-BZeaqlJ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXA5fynPGQLN-BZeaqlJ
