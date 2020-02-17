@@ -12,7 +12,7 @@
 
 # This is a test for CI/CD
 
-![](https://github.com/MSPR-CICD/tests_ci_cd/workflows/Push%20to%20branch%20master/badge.svg?branch=master)
+<!-- ![](https://github.com/MSPR-CICD/tests_ci_cd/workflows/Push%20to%20branch%20master/badge.svg?branch=master)
 
 ![](https://github.com/MSPR-CICD/tests_ci_cd/workflows/Pull%20requests%20on%20master/badge.svg?event=pull_request)
 
@@ -22,4 +22,4 @@
 
 ![](https://github.com/MSPR-CICD/tests_ci_cd/workflows/Pull%20requests%20on%20develop/badge.svg?event=pull_request)
 
-![](https://github.com/MSPR-CICD/tests_ci_cd/workflows/Push%20to%20branch%20develop/badge.svg?event=push)
+![](https://github.com/MSPR-CICD/tests_ci_cd/workflows/Push%20to%20branch%20develop/badge.svg?event=push) -->
